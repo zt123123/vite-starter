@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint --ext js src/",
-    "lint:fix": "eslint --fix --ext .js --ext .jsx src/"
+    "lint:fix": "eslint --fix --ext .js,.jsx src/"
   },
   "keywords": [],
   "author": "",
@@ -30,6 +30,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-standard": "^5.0.0",
+    "eslint-plugin-vue": "^8.7.1",
     "prettier": "^2.6.2",
     "webpack": "^5.72.0"
   }
