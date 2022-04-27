@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "allowJs": true,
+    "outDir": "build",
+    "jsx": "preserve"
+  },
+  "exclude": ["node_modules"]
+}
