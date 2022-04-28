@@ -6,7 +6,7 @@
     <template #hello="slotProps"> gggg--{{ slotProps.item }} </template>
   </Button>
   <h1 ref="head" class="h1">{{ msg }}</h1>
-  <!-- <Hello :msg="msg" /> -->
+  <Hello :msg="msg" />
   <Button ref="btn" :title="msg" @handleClick="reverseMsg">
     <template #hello="{ item }"> {{ item }} </template>
   </Button>
@@ -14,7 +14,7 @@
 
 <script setup>
 import { computed, onMounted, ref, watch, watchEffect } from "vue";
-// import Hello from "./Hello.jsx";
+import Hello from "./Hello.jsx";
 import Button from "./Button.vue";
 import logo from "/assets/logo.png";
 

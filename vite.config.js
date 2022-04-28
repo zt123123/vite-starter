@@ -11,11 +11,15 @@ export default defineConfig({
     // auto open internal browser
     // open: true,
   },
+  optimizeDeps: {
+    exclude: ["lodash-es"],
+  },
+  
   plugins: [
     vue(),
-    // jsx(),
-    // legacy({
-    //   targets: ['ie 8']
-    // })
+    jsx(),
+    legacy({
+      targets: ['ie 8']
+    })
   ]
 })
