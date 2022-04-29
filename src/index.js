@@ -7,6 +7,6 @@ forEach(["🍎", "🍌", "🍊"], val => {
 })
 
 console.log(import.meta.env)
-const eslint = require('eslint')
+// const eslint = require('eslint')
 
 createApp(App).mount("#app")

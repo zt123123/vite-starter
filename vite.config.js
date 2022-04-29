@@ -12,9 +12,9 @@ export default defineConfig({
     // open: true,
   },
   optimizeDeps: {
-    exclude: ["lodash-es"],
+    // exclude: ["lodash-es"],
   },
-  
+
   plugins: [
     vue(),
     jsx(),

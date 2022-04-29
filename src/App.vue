@@ -1,5 +1,8 @@
 <template>
-  <img src="/assets/logo.png" />
+
+
+
+  <!-- <img src="/assets/logo.png" />
   <h2>{{ count }}->{{ double }}</h2>
   <Button :title="msg" @handleClick="count++">
     double
@@ -9,7 +12,7 @@
   <Hello :msg="msg" />
   <Button ref="btn" :title="msg" @handleClick="reverseMsg">
     <template #hello="{ item }"> {{ item }} </template>
-  </Button>
+  </Button> -->
 </template>
 
 <script setup>
