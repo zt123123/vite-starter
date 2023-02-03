@@ -3,7 +3,10 @@
     "module": "ESNext",
     "allowJs": true,
     "outDir": "build",
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "lib": [
+      "ESNext"
+    ]
   },
   "exclude": ["node_modules"]
 }
